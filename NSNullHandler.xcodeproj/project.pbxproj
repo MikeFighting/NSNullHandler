@@ -15,6 +15,18 @@
 		27DBDC421CED368500B73247 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27DBDC401CED368500B73247 /* LaunchScreen.storyboard */; };
 		27DBDC4D1CED368500B73247 /* NSNullHandlerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 27DBDC4C1CED368500B73247 /* NSNullHandlerTests.m */; };
 		27DBDC581CED368500B73247 /* NSNullHandlerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 27DBDC571CED368500B73247 /* NSNullHandlerUITests.m */; };
+		27DBDC671CED36B700B73247 /* ZHSubObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 27DBDC661CED36B700B73247 /* ZHSubObject.m */; };
+		27DBDC6A1CED36CD00B73247 /* ZHSubSubObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 27DBDC691CED36CD00B73247 /* ZHSubSubObject.m */; };
+		27DBDC6C1CED36EC00B73247 /* NullSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 27DBDC6B1CED36EC00B73247 /* NullSafe.m */; };
+		27DBDCAB1CED37E400B73247 /* ZHSomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 27DBDCAA1CED37E400B73247 /* ZHSomeModel.m */; };
+		27DBDCAC1CED37E400B73247 /* ZHSomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 27DBDCAA1CED37E400B73247 /* ZHSomeModel.m */; };
+		27DBDCAD1CED37E400B73247 /* ZHSomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 27DBDCAA1CED37E400B73247 /* ZHSomeModel.m */; };
+		27DBDCBC1CED3DF600B73247 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 27DBDCBA1CED3DF600B73247 /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		27DBDCBD1CED3DF600B73247 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 27DBDCBA1CED3DF600B73247 /* JSONKit.m */; };
+		27DBDCBE1CED3DF600B73247 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 27DBDCBA1CED3DF600B73247 /* JSONKit.m */; };
+		27DBDCBF1CED3DF600B73247 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 27DBDCBB1CED3DF600B73247 /* README.md */; };
+		27DBDCC01CED3DF600B73247 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 27DBDCBB1CED3DF600B73247 /* README.md */; };
+		27DBDCC11CED3DF600B73247 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 27DBDCBB1CED3DF600B73247 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +63,16 @@
 		27DBDC531CED368500B73247 /* NSNullHandlerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSNullHandlerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		27DBDC571CED368500B73247 /* NSNullHandlerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSNullHandlerUITests.m; sourceTree = "<group>"; };
 		27DBDC591CED368500B73247 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27DBDC651CED36B700B73247 /* ZHSubObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHSubObject.h; sourceTree = "<group>"; };
+		27DBDC661CED36B700B73247 /* ZHSubObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHSubObject.m; sourceTree = "<group>"; };
+		27DBDC681CED36CD00B73247 /* ZHSubSubObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHSubSubObject.h; sourceTree = "<group>"; };
+		27DBDC691CED36CD00B73247 /* ZHSubSubObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHSubSubObject.m; sourceTree = "<group>"; };
+		27DBDC6B1CED36EC00B73247 /* NullSafe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NullSafe.m; sourceTree = "<group>"; };
+		27DBDCA91CED37E400B73247 /* ZHSomeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZHSomeModel.h; path = JSONModel/ZHSomeModel.h; sourceTree = "<group>"; };
+		27DBDCAA1CED37E400B73247 /* ZHSomeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZHSomeModel.m; path = JSONModel/ZHSomeModel.m; sourceTree = "<group>"; };
+		27DBDCB91CED3DF600B73247 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		27DBDCBA1CED3DF600B73247 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		27DBDCBB1CED3DF600B73247 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +123,18 @@
 		27DBDC311CED368500B73247 /* NSNullHandler */ = {
 			isa = PBXGroup;
 			children = (
+				27DBDCB81CED3DF600B73247 /* JSONKit */,
+				27DBDCA91CED37E400B73247 /* ZHSomeModel.h */,
+				27DBDCAA1CED37E400B73247 /* ZHSomeModel.m */,
+				27DBDC681CED36CD00B73247 /* ZHSubSubObject.h */,
+				27DBDC691CED36CD00B73247 /* ZHSubSubObject.m */,
+				27DBDC651CED36B700B73247 /* ZHSubObject.h */,
+				27DBDC661CED36B700B73247 /* ZHSubObject.m */,
 				27DBDC351CED368500B73247 /* AppDelegate.h */,
 				27DBDC361CED368500B73247 /* AppDelegate.m */,
 				27DBDC381CED368500B73247 /* ViewController.h */,
 				27DBDC391CED368500B73247 /* ViewController.m */,
+				27DBDC6B1CED36EC00B73247 /* NullSafe.m */,
 				27DBDC3B1CED368500B73247 /* Main.storyboard */,
 				27DBDC3E1CED368500B73247 /* Assets.xcassets */,
 				27DBDC401CED368500B73247 /* LaunchScreen.storyboard */,
@@ -138,6 +168,17 @@
 				27DBDC591CED368500B73247 /* Info.plist */,
 			);
 			path = NSNullHandlerUITests;
+			sourceTree = "<group>";
+		};
+		27DBDCB81CED3DF600B73247 /* JSONKit */ = {
+			isa = PBXGroup;
+			children = (
+				27DBDCB91CED3DF600B73247 /* JSONKit.h */,
+				27DBDCBA1CED3DF600B73247 /* JSONKit.m */,
+				27DBDCBB1CED3DF600B73247 /* README.md */,
+			);
+			name = JSONKit;
+			path = JSONModel/JSONKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,8 +312,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				27DBDC3A1CED368500B73247 /* ViewController.m in Sources */,
+				27DBDCBC1CED3DF600B73247 /* JSONKit.m in Sources */,
 				27DBDC371CED368500B73247 /* AppDelegate.m in Sources */,
 				27DBDC341CED368500B73247 /* main.m in Sources */,
+				27DBDC671CED36B700B73247 /* ZHSubObject.m in Sources */,
+				27DBDCBF1CED3DF600B73247 /* README.md in Sources */,
+				27DBDCAB1CED37E400B73247 /* ZHSomeModel.m in Sources */,
+				27DBDC6A1CED36CD00B73247 /* ZHSubSubObject.m in Sources */,
+				27DBDC6C1CED36EC00B73247 /* NullSafe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +328,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				27DBDC4D1CED368500B73247 /* NSNullHandlerTests.m in Sources */,
+				27DBDCBD1CED3DF600B73247 /* JSONKit.m in Sources */,
+				27DBDCAC1CED37E400B73247 /* ZHSomeModel.m in Sources */,
+				27DBDCC01CED3DF600B73247 /* README.md in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +339,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				27DBDC581CED368500B73247 /* NSNullHandlerUITests.m in Sources */,
+				27DBDCBE1CED3DF600B73247 /* JSONKit.m in Sources */,
+				27DBDCAD1CED37E400B73247 /* ZHSomeModel.m in Sources */,
+				27DBDCC11CED3DF600B73247 /* README.md in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
